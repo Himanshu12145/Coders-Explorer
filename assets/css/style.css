@@ -1,0 +1,22 @@
+:root{
+ --primary-color: rgba(13,110,139,0.34);
+ --secondary-color: rgba(229,148,0,0.9 );
+ --overlay-color:rgba(24,39,51,0.85);
+ --menu-speed: 0.75s;
+}
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+ /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
+
+}
+.container {
+ max-width:960px;
+ margin: auto;
+ overflow: hidden;
+ padding: 0 3rem;
+}
+/*  */
