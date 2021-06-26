@@ -1,0 +1,471 @@
+/* General Styles for FUllpage Elements
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+html, 
+html.fp-enabled,
+.fp-enabled body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*Avoid flicker on slides transitions for mobile phones #336 */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html, body {
+  background: #000;
+}
+
+#superContainer {
+  height: 100%;
+  position: relative;
+  /* Touch detection for Windows 8 */
+  -ms-touch-action: none;
+  /* IE 11 on Windows Phone 8.1*/
+  touch-action: none;
+}
+
+.fp-section {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  /* Safari<=5 Android<=3 */
+  -moz-box-sizing: border-box;
+  /* <=28 */
+  box-sizing: border-box;
+}
+
+.fp-section.fp-table,
+.fp-slide.fp-table {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.fp-tableCell {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+.fp-auto-height.fp-section,
+.fp-auto-height .fp-slide,
+.fp-auto-height .fp-tableCell {
+  height: auto !important;
+}
+
+.fp-responsive .fp-auto-height-responsive.fp-section,
+.fp-responsive .fp-auto-height-responsive .fp-slide,
+.fp-responsive .fp-auto-height-responsive .fp-tableCell {
+  height: auto !important;
+}
+
+.fp-notransition {
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+
+/* Helper Classes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* Reset-General Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: black;
+  letter-spacing: 0.18em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+/* Horizontal Slider Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.fp-slide {
+  float: left;
+}
+
+.fp-slide,
+.fp-slidesContainer {
+  height: 100%;
+  display: block;
+}
+
+.fp-slides {
+  z-index: 1;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: all 0.3s ease-out;
+  /* Safari<=6 Android<=4.3 */
+  transition: all 0.3s ease-out;
+}
+
+.fp-slidesContainer {
+  float: left;
+  position: relative;
+  width: 100% !important;
+  transform: none !important;
+}
+
+.fp-slide {
+  width: 100% !important;
+  position: absolute;
+  left: 0;
+  top: 0;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-atransition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.fp-slide.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Vertical Slider Anchor Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#fp-nav {
+  position: fixed;
+  z-index: 98;
+  margin-top: -32px;
+  top: 50%;
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+#fp-nav ul li,
+.fp-slidesNav ul li {
+  display: block;
+  width: 14px;
+  height: 22px;
+  margin: 7px;
+  position: relative;
+}
+
+/*Set anchors to Left or Right*/
+
+#fp-nav.right {
+  right: 1%;
+}
+
+#fp-nav.left {
+  left: 17px;
+}
+
+/*Anchor Dot Styles*/
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  position: absolute;
+  z-index: 1;
+  width: 10px;
+  height: 5px;
+  background: #333;
+  border-radius: 0;
+  left: 50%;
+  top: 50%;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  opacity: 0.3;
+}
+
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span {
+  opacity: 1;
+  width: 10px;
+}
+
+.next{
+  position: relative;
+  right: -15%;
+  bottom: -20%;
+  /* height: 70px; */
+}
+/* Custon Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+html,
+body * {
+  font-smoothing: antialiased !important;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
+.menu {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 88px;
+  left: 110px;
+  z-index: 50;
+}
+
+.menu span {
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background: #fff;
+}
+
+.menu span:nth-of-type(2) {
+  top: 10px;
+  width: 50px;
+}
+
+.menu span:nth-of-type(3) {
+  top: 20px;
+}
+
+
+.images {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.img {
+  position: absolute;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  width: 100%;
+  height: 100%;
+  opacity: .7;
+}
+
+.imgA {
+  left: 0;
+  -webkit-transform: scale(.5);
+  transform: scale(.5);
+}
+
+.section1 .imgA {
+  background-image: url(img4.jpg);
+}
+
+.section2 .imgA {
+  background-image: url(img2.jpg);
+}
+
+.section3 .imgA {
+  background-image: url(img1.jpg);
+}
+.section4 .imgA {
+  background-image: url(img4.jpg);
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 650px;
+  height: 400px;
+  text-align: center;
+  line-height: 400px; 
+  
+  z-index: 100;
+  user-select: none;
+  width: 100%;
+  overflow: hidden; 
+  pointer-events: none;
+  color: #fff;
+}
+
+.space {
+  margin-left: 15px;
+}
+
+.text h1 {
+  position: absolute;
+  font-family: "Poppins";
+  font-size: 80px;
+  font-weight: 700;
+  cursor: pointer;
+ 
+  z-index: 0;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.text h1 span {
+  display: inline-block;
+  -webkit-transform: translate(0, 30px);
+  transform: translate(0, 30px);
+  opacity: 0;
+  
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.case {
+  position: absolute;
+  font-size: 18px;
+  font-family: "Montserrat";
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  height: 60px;
+  width: 180px;
+  top: 100px;
+  display: block;
+  line-height: 60px;
+  top: 270px;
+  left: 30px;
+}
+
+.case span {
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background: #fff;
+  left: -50px;
+  bottom: 29px;
+}
+
+.numbers {
+  position: absolute;
+  font-size: 400px;
+  top: 100%;
+  margin-top: -290px;
+  font-family: "Montserrat";
+  right: 100px;
+  color: #fff;
+  z-index: 100;
+  width: 500px;
+}
+
+.numbers span {
+ position: absolute;
+}
+
+.numbers span:nth-of-type(1) {
+  left: 0;
+}
+
+.change {
+  right: 0;
+}
+
+.change {
+  transform: translate(0, 0);
+  opacity: 0;
+}
+
+.change.active {
+  opacity: 1;
+}
+
+
+.text h1 span:nth-of-type(2) {
+  transition-delay: .1s;
+}
+
+.text h1 span:nth-of-type(3) {
+  transition-delay: .2s;
+}
+
+.text h1 span:nth-of-type(4) {
+  transition-delay: .3s;
+}
+
+.text h1 span:nth-of-type(5) {
+  transition-delay: .4s;
+}
+
+.text h1 span:nth-of-type(6) {
+  transition-delay: .5s;
+}
+
+.text h1 span:nth-of-type(7) {
+  transition-delay: .6s;
+}
+
+.text h1 span:nth-of-type(8) {
+  transition-delay: .7s;
+}
+
+@media (max-width: 800px) {
+  .text h1 {
+    font-size: 50px;
+    letter-spacing: 3px;
+  }
+}
+
+.text h1.active span {
+  opacity: 1;
+  z-index: 1;
+  -webkit-transform: translate(0,0);
+  transform: translate(0,0);
+}
+
+.section.active .imgA {
+  -webkit-transform: rotate(-10deg) scale(1);
+  transform: scale(1);
+  transition-delay: 1.5s;
+}
+
+.section.active .imgB {
+  -webkit-transform: rotate(10deg) scale(1);
+  transform: scale(1);
+}
+
+.nav {
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+.nav.start {
+  opacity: 1;
+}
