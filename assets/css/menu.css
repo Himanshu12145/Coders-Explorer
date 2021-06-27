@@ -172,19 +172,24 @@
   margin: 0 2opx;
 }
 .menu-wrap .menu > div .left {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-right: 5%;
 }
 .menu-wrap .menu .right h2 {
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 5.5rem;
+  font-family: 'Pacifico', cursive;
+  position: relative;
+  top: -5%;
 }
 
 .menu-wrap .menu .right p {
   color: #fff;
-  text-align: right;
-
-  font-size: 1.2rem;
+  text-align: left;
+  font-family: 'Pacifico', cursive;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+  margin-top: 10%;
 }
 .menu-wrap .menu .right > div > div {
   color: #fff;
@@ -198,7 +203,7 @@
   text-align: left;
   list-style: none;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 1rem;
 }
 .menu-wrap .menu > div > div > ul > li > a {
@@ -208,4 +213,93 @@
 }
 .menu-wrap .menu > div > div :hover {
   color: var(--secondary-color);
+}
+.menu .left a{
+font-size: 50px;
+font-family: 'Pacifico', cursive;
+}
+.right .xx{
+  font-size: 50px;
+  font-family: 'Pacifico', cursive;
+}
+.right p{
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+}
+@media screen and (max-width:761px){
+  .menu-wrap .menu .right h2 {
+    color: #fff;
+    font-size: 4rem;
+    font-family: 'Pacifico', cursive;
+    position: relative;
+    top: -5%;
+  }
+  
+  .menu-wrap .menu .right p {
+    color: #fff;
+    text-align: left;
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-top: 10%;
+  }
+  .menu .left a{
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    }
+    .menu-wrap .menu > div .left {
+      /* text-transform: uppercase; */
+      margin-right: 2%;
+    }
+}
+@media screen and (max-width:561px){
+  .menu-wrap .menu .right h2 {
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;
+    position: relative;
+    top: -5%;
+  }
+  
+  .menu-wrap .menu .right p {
+    color: #fff;
+    text-align: left;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    margin-top: 10%;
+  }
+  .menu .left a{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    }
+    .menu-wrap .menu > div .left {
+      /* text-transform: uppercase; */
+      margin-right: 2%;
+    }
+}
+@media screen and (max-width:465px){
+  .menu-wrap .menu .right h2 {
+    font-size: 2.5rem;
+    font-family: 'Pacifico', cursive;
+    position: relative;
+    top: -5%;
+  }
+  
+  .menu-wrap .menu .right p {
+    color: #fff;
+    text-align: left;
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 10%;
+  }
+  .menu .left a{
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    }
+    .menu-wrap .menu > div .left {
+      /* text-transform: uppercase; */
+      margin-right: 2%;
+    }
 }
