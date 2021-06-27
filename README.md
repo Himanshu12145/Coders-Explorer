@@ -54,9 +54,9 @@ Well, there were really a lot of problems that make us demotivated but at first 
 There are pretty much many new things that we learnt but the most important thing that we learnt is to understand the mindset of the coder while coding .As we mentioned above those are some of the partially-free resources that we tried to implement in our project. We tried to implement many different libraries in this project and we are furthur thinking of to create a backend for this project like Node, Express MongoDB and many new cool things . And yes That's it you are really taking a lot of new and cool stuff from here just keep on learning from hereon and refer to this whenever needed.   
 
 #Team Members
-[Soumyakanta Mohanty](https://www.linkedin.com/in/soumyakanta-mohanty-4838371b5/)
-[Jawed Ahmed](https://www.linkedin.com/in/jawed-ahmed-b70a75209)
-[Himanshu Shekhar Sahoo](https://www.linkedin.com/in/himanshu-sahoo-b334b8163/)
+- [Soumyakanta Mohanty](https://www.linkedin.com/in/soumyakanta-mohanty-4838371b5/)
+- [Jawed Ahmed](https://www.linkedin.com/in/jawed-ahmed-b70a75209)
+- [Himanshu Shekhar Sahoo](https://www.linkedin.com/in/himanshu-sahoo-b334b8163/)
 
 
 
