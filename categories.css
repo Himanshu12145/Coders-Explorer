@@ -235,5 +235,15 @@
                 transform: rotate(360deg);
             }
         }
+#foot{
+    background: #373737;
+}
+#foot p{
+    font-size: 2rem;
+    font-family: "Pacifico", cursive;
+    color: white;
+    margin-bottom: 0;
+    text-align: center;
+  }
 
     
