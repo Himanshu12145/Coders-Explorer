@@ -1,308 +1,280 @@
-#gallery{
-	width: 100%;
-	overflow: hidden;
-}	
-.odisha{
-	display: grid;
-	grid-template-columns: repeat(4,1fr);
+#gallery {
+  width: 100%;
+  overflow: hidden;
+}
+.odisha {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 @keyframes example {
-    0% {
-       background-image: url("../images/2014.jpg") ;
-    }
-    25% {
-        background-image: url("../images/Bedroom.jpg");
-  
-    }
-    50% {
-        background-image: url("../images/chair1.jpeg");
-  
-    }
-    75% {
-        background-image: url("../images/chair1.jpg");
-  
-    }
-    100% {
-        background-image: url("../images/chair2.jpeg");
-  
-    }
+  0% {
+    background-image: url("../images/2014.jpg");
   }
-  @keyframes example1 {
-    0% {
-       background-image: url("../images/chair2.jpg") ;
-    }
-    25% {
-        background-image: url("../images/chair3.jpeg");
-  
-    }
-    50% {
-        background-image: url("../images/g1.jpg");
-  
-    }
-    75% {
-        background-image: url("../images/hardware1.jpeg");
-  
-    }
-    100% {
-        background-image: url("../images/hardware4.jpeg");
-  
-    }
+  25% {
+    background-image: url("../images/Bedroom.jpg");
   }
-  @keyframes example2 {
-    0% {
-       background-image: url("../images/s1.jpg") ;
-    }
-    25% {
-        background-image: url("../images/sofa1.jpeg");
-  
-    }
-    50% {
-        background-image: url("../images/sofa4.jpeg");
-  
-    }
-    75% {
-        background-image: url("../images/g4.jpg");
-  
-    }
-    100% {
-        background-image: url("../images/grid2.jpg");
-  
-    }
+  50% {
+    background-image: url("../images/chair1.jpeg");
   }
-  @keyframes example3 {
-    0% {
-       background-image: url("../images/grid3.jpg") ;
-    }
-    25% {
-        background-image: url("../images/hardware3.jpeg");
-  
-    }
-    50% {
-        background-image: url("../images/img.jpg");
-  
-    }
-    75% {
-        background-image: url("../images/s2.jpg");
-  
-    }
-    100% {
-        background-image: url("../images/bedroom4.jpeg");
-  
-    }
+  75% {
+    background-image: url("../images/chair1.jpg");
   }
-  @keyframes example4 {
-    0% {
-       background-image: url("../images/g3.jpg") ;
-    }
-    25% {
-        background-image: url("../images/grid2.jpg");
-  
-    }
-    50% {
-        background-image: url("../images/sofa1.jpeg");
-  
-    }
-    75% {
-        background-image: url("../images/image1.jpg");
-  
-    }
-    100% {
-        background-image: url("../images/grid1.jpg");
-  
-    }
+  100% {
+    background-image: url("../images/chair2.jpeg");
   }
-  @keyframes example5 {
-    0% {
-       background-image: url("../images/g4.jpg") ;
-    }
-    25% {
-        background-image: url("../images/image2.jpg");
-  
-    }
-    50% {
-        background-image: url("../images/g2.jpg");
-  
-    }
-    75% {
-        background-image: url("../images/chair3.jpeg");
-  
-    }
-    100% {
-        background-image: url("../images/bedroom3.jpeg");
-  
-    }
+}
+@keyframes example1 {
+  0% {
+    background-image: url("../images/chair2.jpg");
   }
-  @keyframes example6 {
-    0% {
-       background-image: url("../images/s3.jpg") ;
-    }
-    25% {
-        background-image: url("../images/img.jpg");
-  
-    }
-    50% {
-        background-image: url("../images/sofa4.jpeg");
-  
-    }
-    75% {
-        background-image: url("../images/hardware2.jpeg");
-  
-    }
-    100% {
-        background-image: url("../images/grid2.jpg");
-  
-    }
+  25% {
+    background-image: url("../images/chair3.jpeg");
   }
-  @keyframes example7 {
-    0% {
-       background-image: url("../images/g4.jpg") ;
-    }
-    25% {
-        background-image: url("../images/chair2.jpg");
-  
-    }
-    50% {
-        background-image: url("../images/bedroom3.jpeg");
-  
-    }
-    75% {
-        background-image: url("../images/chair4.jpeg");
-  
-    }
-    100% {
-        background-image: url("../images/grid3.jpg");
-  
-    }
+  50% {
+    background-image: url("../images/g1.jpg");
   }
- 
-  
+  75% {
+    background-image: url("../images/hardware1.jpeg");
+  }
+  100% {
+    background-image: url("../images/hardware4.jpeg");
+  }
+}
+@keyframes example2 {
+  0% {
+    background-image: url("../images/s1.jpg");
+  }
+  25% {
+    background-image: url("../images/sofa1.jpeg");
+  }
+  50% {
+    background-image: url("../images/sofa4.jpeg");
+  }
+  75% {
+    background-image: url("../images/g4.jpg");
+  }
+  100% {
+    background-image: url("../images/grid2.jpg");
+  }
+}
+@keyframes example3 {
+  0% {
+    background-image: url("../images/grid3.jpg");
+  }
+  25% {
+    background-image: url("../images/hardware3.jpeg");
+  }
+  50% {
+    background-image: url("../images/img.jpg");
+  }
+  75% {
+    background-image: url("../images/s2.jpg");
+  }
+  100% {
+    background-image: url("../images/bedroom4.jpeg");
+  }
+}
+@keyframes example4 {
+  0% {
+    background-image: url("../images/g3.jpg");
+  }
+  25% {
+    background-image: url("../images/grid2.jpg");
+  }
+  50% {
+    background-image: url("../images/sofa1.jpeg");
+  }
+  75% {
+    background-image: url("../images/image1.jpg");
+  }
+  100% {
+    background-image: url("../images/grid1.jpg");
+  }
+}
+@keyframes example5 {
+  0% {
+    background-image: url("../images/g4.jpg");
+  }
+  25% {
+    background-image: url("../images/image2.jpg");
+  }
+  50% {
+    background-image: url("../images/g2.jpg");
+  }
+  75% {
+    background-image: url("../images/chair3.jpeg");
+  }
+  100% {
+    background-image: url("../images/bedroom3.jpeg");
+  }
+}
+@keyframes example6 {
+  0% {
+    background-image: url("../images/s3.jpg");
+  }
+  25% {
+    background-image: url("../images/img.jpg");
+  }
+  50% {
+    background-image: url("../images/sofa4.jpeg");
+  }
+  75% {
+    background-image: url("../images/hardware2.jpeg");
+  }
+  100% {
+    background-image: url("../images/grid2.jpg");
+  }
+}
+@keyframes example7 {
+  0% {
+    background-image: url("../images/g4.jpg");
+  }
+  25% {
+    background-image: url("../images/chair2.jpg");
+  }
+  50% {
+    background-image: url("../images/bedroom3.jpeg");
+  }
+  75% {
+    background-image: url("../images/chair4.jpeg");
+  }
+  100% {
+    background-image: url("../images/grid3.jpg");
+  }
+}
 
-  .od1{
-	animation-name: example;
-    animation-duration: 20s;
-    -webkit-animation-iteration-count: infinite;
-	height: 400px;
-	/* width: 400px; */
-	background-size: cover;
-	background-repeat: no-repeat;
+.od1 {
+  animation-name: example;
+  animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+  height: 400px;
+  /* width: 400px; */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.od2{
-	animation-name: example1;
-    animation-duration: 30s;
-    -webkit-animation-iteration-count: infinite;
-	/* width: 400px; */
-	height: 400px;
-	background-size: cover;
-	background-repeat: no-repeat;
+.od2 {
+  animation-name: example1;
+  animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+  /* width: 400px; */
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.od3{
-	animation-name: example2;
-    animation-duration: 20s;
-    -webkit-animation-iteration-count: infinite;
-	height: 400px;
-	/* width: 400px; */
-	background-size: cover;
-	background-repeat: no-repeat;
+.od3 {
+  animation-name: example2;
+  animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+  height: 400px;
+  /* width: 400px; */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.od4{
-	animation-name: example3;
-    animation-duration: 30s;
-    -webkit-animation-iteration-count: infinite;
-	height: 400px;
-	/* width: 400px; */
-	background-size: cover;
-	background-repeat: no-repeat;
+.od4 {
+  animation-name: example3;
+  animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+  height: 400px;
+  /* width: 400px; */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.od5{
-	animation-name: example4;
-    animation-duration: 20s;
-    -webkit-animation-iteration-count: infinite;
-	height: 400px;
-	/* width: 400px; */
-	background-size: cover;
-	background-repeat: no-repeat;
+.od5 {
+  animation-name: example4;
+  animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+  height: 400px;
+  /* width: 400px; */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.od6{
-	animation-name: example5;
-    animation-duration: 30s;
-    -webkit-animation-iteration-count: infinite;
-	height: 400px;
-	/* width: 400px; */
-	background-size: cover;
-	background-repeat: no-repeat;
+.od6 {
+  animation-name: example5;
+  animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+  height: 400px;
+  /* width: 400px; */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.od7{
-	animation-name: example6;
-    animation-duration: 20s;
-    -webkit-animation-iteration-count: infinite;
-	height: 400px;
-	/* width: 400px; */
-	background-size: cover;
-	background-repeat: no-repeat;
+.od7 {
+  animation-name: example6;
+  animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+  height: 400px;
+  /* width: 400px; */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.od8{
-	animation-name: example7;
-    animation-duration: 30s;
-    -webkit-animation-iteration-count: infinite;
-	height: 400px;
-	/* width: 400px; */
-	background-size: cover;
-	background-repeat: no-repeat;
+.od8 {
+  animation-name: example7;
+  animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+  height: 400px;
+  /* width: 400px; */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-@media screen and (max-width:826px) {
-    .od1{
-        height: 350px;
-    }
-    .od2{
-        height: 350px;
-    }
-    .od3{
-        height: 350px;
-    }
-    .od4{
-        height: 350px;
-    }
-    .od5{
-        height: 350px;
-    }
-    .od6{
-        height: 350px;
-    }
-    .od7{
-        height: 350px;
-    }
-    .od8{
-        height: 350px;
-    }
+@media screen and (max-width: 826px) {
+  .od1 {
+    height: 350px;
+  }
+  .od2 {
+    height: 350px;
+  }
+  .od3 {
+    height: 350px;
+  }
+  .od4 {
+    height: 350px;
+  }
+  .od5 {
+    height: 350px;
+  }
+  .od6 {
+    height: 350px;
+  }
+  .od7 {
+    height: 350px;
+  }
+  .od8 {
+    height: 350px;
+  }
 }
-@media screen and (max-width:630px){
-    .odisha{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-    .od1{
-        height: 250px;
-    }
-    .od2{
-        height: 250px;
-    }
-    .od3{
-        height: 250px;
-    }
-    .od4{
-        height: 250px;
-    }
-    .od5{
-        height: 250px;
-    }
-    .od6{
-        height: 250px;
-    }
-    .od7{
-        height: 250px;
-    }
-    .od8{
-        height: 250px;
-    }
-
+@media screen and (max-width: 630px) {
+  .odisha {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .od1 {
+    height: 250px;
+  }
+  .od2 {
+    height: 250px;
+  }
+  .od3 {
+    height: 250px;
+  }
+  .od4 {
+    height: 250px;
+  }
+  .od5 {
+    height: 250px;
+  }
+  .od6 {
+    height: 250px;
+  }
+  .od7 {
+    height: 250px;
+  }
+  .od8 {
+    height: 250px;
+  }
+  gallery h1 {
+    font-size: 5rem;
+    font-family: "Pacifico", cursive;
+    margin: 40px;
+    margin-bottom: 50px;
+    color: white;
+  }
 }
