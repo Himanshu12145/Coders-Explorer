@@ -36,13 +36,13 @@ body {
 }
 
 #canvas-holder:hover .expand {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  /* -webkit-transform: scale(1.1);
+          transform: scale(1.1); */
 }
 
 #canvas-holder:hover .expand > span {
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  /* -webkit-transform: scale(0.9);
+          transform: scale(0.9); */
 }
 
 #slider-canvas {
@@ -192,8 +192,8 @@ body {
 .thumbs > div img {
   display: block;
   width: 100%;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  /* -webkit-transform: scale(1);
+          transform: scale(1); */
 }
 
 #slider {
