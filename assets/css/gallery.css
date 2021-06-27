@@ -80,3 +80,8 @@
      -webkit-animation-iteration-count: infinite;
      background-size: cover;
    }
+   #id2{
+    animation-name: example;
+    animation-duration: 25s;
+    -webkit-animation-iteration-count: infinite;
+   }
