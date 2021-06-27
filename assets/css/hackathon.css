@@ -113,3 +113,35 @@ header .carousel-inner .item {
 	font-family: 'Jim Nightshade', cursive;
     z-index: 1;
   }
+  @media only screen and (max-width: 990px){
+	  .carousel-caption h2{
+		  font-size: 120px;
+		 
+	  }
+	  .carousel-caption{
+		  position: absolute;
+		  bottom: -30%;
+	  }
+  }
+  @media only screen and (max-width: 768px){
+	.carousel-caption{
+		position: absolute;
+		/* top: -10%; */
+		/* right: -2%; */
+		bottom: 2%;
+	}
+	.carousel-caption h2{
+		font-size: 110px;
+	}
+	
+  }
+  @media only screen and (max-width: 488px){
+	  .carousel-caption h2{
+		  font-size: 90px;
+	  }
+  }
+  @media only screen and (max-width: 400px){
+	.carousel-caption h2{
+		font-size:85px;
+	}
+}
