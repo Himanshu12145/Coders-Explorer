@@ -177,14 +177,13 @@
     margin-top: 20px;
     padding: 10px 15px;
     font-size: 22px;
-    background: linear-gradient(90.12deg, #a40606 12.14%, #d98324 98.47%);
+    background: transparent;
+    
 	font-size: 2rem;
 }
 .btn1:hover{
-	background: transparent;
-	background: -webkit-linear-gradient(180deg,#a40606 12.14%, #d98324 98.47%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    color: white;
+	background: linear-gradient(90.12deg, #a40606 12.14%, #d98324 98.47%);
 }
 @media all and (max-width: 720px){
 	.textBx{
