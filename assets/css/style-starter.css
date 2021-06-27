@@ -13093,7 +13093,7 @@ a.sb {
   background: #373737;
 }
 #secpage h3{
-  background: -webkit-linear-gradient(180deg, #FE1EA9 12.14%, #5E49EE 94.87%);
+  background: -webkit-linear-gradient(180deg, #f1da06 12.14%, #745f27 98.47%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -13107,12 +13107,12 @@ a.sb {
   color: white;
 }
 #homebtn a{
-  border: 2.5px solid #FE1FAA;
-  background: linear-gradient(90.12deg, #FE1EA9 12.14%, #5E49EE 94.87%);
+  border: 2.5px solid #f1da06;
+  background: linear-gradient(90.12deg, #f1da06 12.14%, #745f27 98.47%);
 }
 #homebtn a:hover{
   background: transparent;
-  background: -webkit-linear-gradient(180deg, #FE1EA9 12.14%, #5E49EE 94.87%);
+  background: -webkit-linear-gradient(180deg, #f1da06 12.14%, #745f27 98.47%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

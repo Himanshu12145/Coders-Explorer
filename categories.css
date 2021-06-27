@@ -1,9 +1,9 @@
-.ram1{
+/* .ram1{
 	position: relative;
 	color: white;
 	margin-top: 0;
 	letter-spacing: 1rem;
-}
+} */
 .parallax{
 	background-image: url(yellowparallax1.jpg);
     background-attachment: fixed;
@@ -81,7 +81,7 @@
     flex-direction: column;
     
 }
-.parallax p{
+/* .parallax p{
 	font-family: 'Pacifico', cursive;
 	position: relative;
 	top: 100px;
@@ -91,7 +91,7 @@
 	justify-content: center;
 	font-weight: bold;
 	line-height: 90px;
-}
+} */
 .parallax1 p{
 	font-family: 'Pacifico', cursive;
 	position: relative;
@@ -147,18 +147,45 @@
 	font-weight: bold;
 	line-height: 90px;
 }
-#homebtn{
-	width: 100px;
-	height: 50px;
+.textBx{
+	display: flex;
+	flex-direction: column;	
+	align-items: flex-start;
+	margin-top: 15%;
+	left: 0;
+	margin-left: 30px;
 }
-#homebtn a{
-	border: 2.5px solid #FE1FAA;
-	background: linear-gradient(90.12deg, #FE1EA9 12.14%, #5E49EE 94.87%);
-	
-  }
-  #homebtn a:hover{
+.textBx h3{
+	font-family: 'Pacifico', cursive;
+	font-size: 5.5rem;
+	font-weight: bold;
+	line-height: 90px;
+	background: -webkit-linear-gradient(180deg, #f1da06 12.14%, #745f27 98.47%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn1 {
+    position: relative;
+    display: inline-block;
+    color: white;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    border: 2.5px solid #f1da06;
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 22px;
+    background: linear-gradient(90.12deg, #f1da06 12.14%, #745f27 98.47%);
+}
+.btn1:hover{
 	background: transparent;
-	background: -webkit-linear-gradient(180deg, #FE1EA9 12.14%, #5E49EE 94.87%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-  }
+	background: -webkit-linear-gradient(180deg, #f1da06 12.14%, #745f27 98.47%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media all and (max-width: 720px){
+	.textBx{
+		margin-top:25%;
+	}
+}
