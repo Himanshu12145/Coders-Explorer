@@ -1,17 +1,23 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "montserrat", sans-serif;
+  /* font-family: "montserrat", sans-serif; */
 }
 body {
   /* content: ""; */
-  background: url("../images/back.png") no-repeat fixed center;
+  /* background: url("../images/back.jpeg") no-repeat fixed center; */
+}
+.test{
+  background: url("../images/back.jpeg") no-repeat fixed center;
 }
 .testimonials {
+  background: url("../images/tt.jpeg") no-repeat fixed center;
+  background-size: cover;
   padding: 80px 0;
   /* background: #f1f1f1; */
   color: #f1f1f1;
   text-align: center;
+  width: 100%;
 }
 .in {
   max-width: 1200px;
@@ -59,6 +65,9 @@ body {
 .stars {
   color: #f1f1f1;
   margin-bottom: 20px;
+}
+.loc p{
+  color: white;
 }
 
 @media screen and (max-width: 960px) {
