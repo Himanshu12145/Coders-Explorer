@@ -43,7 +43,7 @@ Oh ,really bunch of free resources...
 As you all could sense from the name of the website its main theme is design with love. Its really focused over Furniture and other home appliances that are day to day used in our daily life . And you can always watch the preview of our website.
 
 ##Preview of our website
-![]()
+![](README/SS1.png)
 ### Problems Faced by us
 Well, there were really a lot of problems that make us demotivated but at first we just make an layout on just pen and paper then we shared our imagination and then we tried to divide the whole work into many task and that task to many subtasks so that whenever we forget whats the next step at that time just do'nt get stuck . And another point to be noted is that we have a really good coordination as a group which many developers around the world don't tell .
 
