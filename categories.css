@@ -160,7 +160,7 @@
 	font-size: 5.5rem;
 	font-weight: bold;
 	line-height: 90px;
-	background: -webkit-linear-gradient(180deg, #f1da06 12.14%, #745f27 98.47%);
+	background: -webkit-linear-gradient(180deg, #a40606 12.14%, #d98324 98.47%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -173,18 +173,17 @@
     text-decoration: none;
     letter-spacing: 1px;
     border-radius: 25px;
-    border: 2.5px solid #f1da06;
+    border: 2.5px solid #d98324;
     margin-top: 20px;
     padding: 10px 15px;
     font-size: 22px;
-    background: linear-gradient(90.12deg, #f1da06 12.14%, #745f27 98.47%);
+    background: transparent;
+    
 	font-size: 2rem;
 }
 .btn1:hover{
-	background: transparent;
-	background: -webkit-linear-gradient(180deg, #f1da06 12.14%, #745f27 98.47%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    color: white;
+	background: linear-gradient(90.12deg, #a40606 12.14%, #d98324 98.47%);
 }
 @media all and (max-width: 720px){
 	.textBx{
