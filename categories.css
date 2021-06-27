@@ -168,7 +168,6 @@
     position: relative;
     display: inline-block;
     color: white;
-	font-family: 'Pacifico', cursive;
     /* text-transform: uppercase; */
     text-decoration: none;
     letter-spacing: 1px;
@@ -178,7 +177,6 @@
     padding: 10px 15px;
     font-size: 22px;
     background: linear-gradient(90.12deg, #f1da06 12.14%, #745f27 98.47%);
-	font-size: 2rem;
 }
 .btn1:hover{
 	background: transparent;
@@ -191,50 +189,3 @@
 		margin-top:25%;
 	}
 }
-       
- .preloader {
-            width: 100%;
-            height: 100%;
-            position: fixed;
-            top: 0;
-            left: 0;
-            background: white;
-            z-index: 99999999;
-        }
-
-        #preloader-logo {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
-        }
-
-      
-
-        .spinner {
-            width: 80px;
-            height: 80px;
-            border: 2px solid #f3f3f3;
-            border-top: 3px solid #2489CE;
-            border-radius: 100%;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
-            animation: spin 1s infinite ease;
-        }
-
-        @keyframes spin {
-            from {
-                transform: rotate(0deg);
-            }
-            to {
-                transform: rotate(360deg);
-            }
-        }
-
-    
