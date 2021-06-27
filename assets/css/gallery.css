@@ -270,11 +270,12 @@
   .od8 {
     height: 250px;
   }
-  gallery h1 {
-    font-size: 5rem;
-    font-family: "Pacifico", cursive;
-    margin: 40px;
-    margin-bottom: 50px;
-    color: white;
-  }
+  
+}
+#gallery h1 {
+  font-size: 5rem;
+  font-family: "Pacifico", cursive;
+  margin: 40px;
+  margin-bottom: 50px;
+  color: white;
 }
