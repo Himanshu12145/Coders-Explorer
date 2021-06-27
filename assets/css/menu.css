@@ -189,7 +189,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.right h2:hover {
+/* .right h2:hover {
   background: -webkit-linear-gradient(180deg, #f1da06 12.14%, #745f27 98.47%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -198,7 +198,7 @@
   background: -webkit-linear-gradient(180deg, #f1da06 12.14%, #745f27 98.47%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 .menu .left a {
   font-size: 50px;
   font-family: "Pacifico", cursive;
