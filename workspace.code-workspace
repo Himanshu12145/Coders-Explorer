@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "..\\..\\..\\Desktop\\Coder-Explorer"
+	},
+	{
+		"name": "Coders-Explorer",
+		"path": "..\\..\\..\\Desktop\\Coder-Explorer\\Coders-Explorer"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Coder-Explorer"
+  }
+}
