@@ -25,6 +25,12 @@ body {
   overflow: hidden;
   padding: 0 20px;
 }
+.in h1{
+  font-size: 5rem;
+  font-family: "Pacifico", cursive;
+  margin: 40px;
+  color: white;
+}
 
 .border {
   width: 160px;
