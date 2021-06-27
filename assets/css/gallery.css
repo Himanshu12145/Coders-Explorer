@@ -1,0 +1,82 @@
+@keyframes example {
+    0% {
+       background-image: url("../images/chair2.jpg") ;
+    }
+    25% {
+        background-image: url("../images/grid3.jpg");
+  
+    }
+    50% {
+        background-image: url("../images/Bedroom.jpg");
+  
+    }
+    75% {
+        background-image: url("../images/g6.jpg");
+  
+    }
+    100% {
+        background-image: url("../images/image1.jpg");
+  
+    }
+  }
+  @keyframes example1 {
+    0% {
+       background-image: url("../images/g2.jpg") ;
+    }
+    25% {
+        background-image: url("../images/grid3.jpg");
+  
+    }
+    50% {
+        background-image: url("../images/g5.jpg");
+  
+    }
+    75% {
+        background-image: url("../images/bg3.jpg");
+  
+    }
+    100% {
+        background-image: url("../images/image2.jpg");
+  
+    }
+  }
+  @keyframes example2 {
+    0% {
+       background-image: url("../images/grid1.jpg") ;
+    }
+    25% {
+        background-image: url("../images/s3.jpg");
+  
+    }
+    50% {
+        background-image: url("../images/2014.jpg");
+  
+    }
+    75% {
+        background-image: url("../images/g4.jpg");
+  
+    }
+    100% {
+        background-image: url("../images/img.jpg");
+  
+    }
+  }
+
+  #id1{
+   animation-name: example;
+    animation-duration: 25s;
+    -webkit-animation-iteration-count: infinite;
+    background-size: cover;
+  }
+  #id3{
+    animation-name: example1;
+     animation-duration: 30s;
+     -webkit-animation-iteration-count: infinite;
+     background-size: cover;
+   }
+   #id5{
+    animation-name: example2;
+     animation-duration: 25s;
+     -webkit-animation-iteration-count: infinite;
+     background-size: cover;
+   }
