@@ -12,17 +12,24 @@ We here tried our best to overcome many kind of situations which we thought coul
   To run the website locally you could just clone this repository in your local machine's local repository or just by downloading the zip file . If you downloaded the zip file then first of all extract it then open the root directory named as *Coders-Explorer-main* then inside it just double click on index.js file that will take you to the landing page of out website pretty excited right!
  
  ###Some References 
- *Image Resources*
+
+
+*Image Resources*
+
 - [Unsplash](https://unsplash.com/)
 - [Pexels](https://www.pexels.com/)
 - [Pixabay](https://pixabay.com/)
 - [Lifeofpix](https://www.lifeofpix.com/)
+
+
  *Icon Resources*
 - [Font Awesome](https://fontawesome.com/)	
 -[Line Awesome](https://icons8.com/line-awesome)	
 -[Material Icons](https://material.io/resources/icons/)	
 -[IonIcons](http://ionicons.com/)	
 -[Zurb Foundation Icons](https://zurb.com/playground/foundation-icon-fonts-3)
+
+
 *Some JS and CSS Frameworks* 
 - [Bootstrap(v5)](https://getbootstrap.com/docs/5.0/getting-started/introduction/)   
 - [Animate On Scroll](https://michalsnik.github.io/aos/)   
