@@ -167,7 +167,6 @@
 .btn1 {
     position: relative;
     display: inline-block;
-    color: #a40606;
 	font-family: 'Pacifico', cursive;
     /* text-transform: uppercase; */
     text-decoration: none;
@@ -178,12 +177,13 @@
     padding: 10px 15px;
     font-size: 22px;
     background: transparent;
-    background: white;
 	font-size: 2rem;
-}
-.btn1:hover{
     color: white;
 	background: -webkit-linear-gradient(90deg, #a40606 12.14%, #d98324 98.47%);
+}
+.btn1:hover{
+    color: #a40606;
+    background: transparent;
 }
 @media all and (max-width: 720px){
 	.textBx{
