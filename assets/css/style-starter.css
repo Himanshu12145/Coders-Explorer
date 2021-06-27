@@ -13155,3 +13155,8 @@ a.sb {
   transform: translate(-50%, -50%);
   white-space: nowrap;
 }
+#secpage h4{
+  background: -webkit-linear-gradient(180deg, #f1da06 12.14%, #745f27 98.47%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
