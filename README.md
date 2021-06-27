@@ -38,4 +38,16 @@ We here tried our best to overcome many kind of situations which we thought coul
 - [HTML,CSS,JS](https://developer.mozilla.org/)
 - [GIT](https://git-scm.com/)
 
+Oh ,really bunch of free resources...
+
+As you all could sense from the name of the website its main theme is design with love. Its really focused over Furniture and other home appliances that are day to day used in our daily life . And you can always watch the preview of our website.
+
+##Preview of our website
+![]()
+### Problems Faced by us
+Well, there were really a lot of problems that make us demotivated but at first we just make an layout on just pen and paper then we shared our imagination and then we tried to divide the whole work into many task and that task to many subtasks so that whenever we forget whats the next step at that time just do'nt get stuck . And another point to be noted is that we have a really good coordination as a group which many developers around the world don't tell .
+
+###New things we learned 
+There are pretty much many new things that we learnt but the most important thing that we learnt is to understand the mindset of the coder while coding .As we mentioned above those are some of the partially-free resources that we tried to implement in our project. We tried to implement many different libraries in this project and we are furthur thinking of to create a backend for this project like Node, Express MongoDB and many new cool things . And yes That's it you are really taking a lot of new and cool stuff from here just keep on learning from hereon and refer to this whenever needed.   
+
 
